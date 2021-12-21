@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding:0;
+    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
 
@@ -81,13 +83,18 @@
                             height: 44px;
                             background-color: #F8F8F8;
                             border: none;
-                            color: #BDBDBD;
                             font-size: 14px;
                             line-height: 140%;
                             padding-left: 30px;
                             box-sizing: border-box;
                             margin-top: 10px;
                             margin-bottom: 22px;
+                            color: #4F4F4F;
+                        }
+                        ::placeholder{
+                            color: #BDBDBD;
+                            font-size: 14px;    
+                            line-height: 140%; 
                         }
                     }
 
