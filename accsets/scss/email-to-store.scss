@@ -1,0 +1,76 @@
+.email-to-store {
+    width: 793px;
+    height: 634px;
+    padding: 28px 40px 44px 40px;
+
+    .email-to-store-heading {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(66, 104, 119, 0.2);
+        width: 713px;
+
+        .email-to-store-title {
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: bold;
+            color: #C59A4C;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+    }
+
+    .form-email-group {
+        margin-top: 8px;
+
+        .form-email-group-list {
+
+            .form-email-group-item {
+                margin-top: 16px;
+
+                .form-email-group-lb {
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #426877;
+                }
+
+                .form-email-group-input {
+                    width: 100%;
+                    height: 44px;
+                    border: none;
+                    background: #F8F8F8;
+                    padding: 12px 20px;
+                    color: #4F4F4F;
+                    font-size: 14px;
+                    line-height: 140%;
+                    margin-top: 6px;
+                }
+
+                ::placeholder {
+                    color: #BDBDBD;
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+
+                #form-email-group-message {
+                    height: 207px;
+                }
+            }
+        }
+
+        .form-email-group-wrap {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 36px;
+
+            .form-email-group-submit {
+                width: 161px;
+                height: 46px;
+                background-color: #426877;
+                color: #ffffff;
+                border: none;
+                font-size: 16px;
+            }
+        }
+    }
+}
