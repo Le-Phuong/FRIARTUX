@@ -1,12 +1,13 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
 
 .login {
     background-image: url(../img/login.svg);
+
     .login-wrap {
         .login-wrap-inner {
             margin-bottom: 64px;
@@ -20,10 +21,11 @@
 
                 .login-wrap-inner-back-link {
                     margin-right: 12px;
-                    .login-wrap-inner-back-icon{
+
+                    .login-wrap-inner-back-icon {
                         width: 20px;
                         height: 20px;
-                    } 
+                    }
                 }
 
                 .login-wrap-inner-back-text {
@@ -35,7 +37,7 @@
 
         .form-login {
             margin: 0 auto;
-            padding-top:50px;
+            padding-top: 50px;
             padding-bottom: 30px;
             background-color: #ffffff;
             width: 343px;
@@ -86,10 +88,11 @@
                             margin-bottom: 24px;
                             color: #4F4F4F;
                         }
-                        ::placeholder{
+
+                        ::placeholder {
                             color: #BDBDBD;
-                            font-size: 14px;    
-                            line-height: 19px; 
+                            font-size: 14px;
+                            line-height: 19px;
                             font-weight: 400;
                         }
                     }
@@ -120,7 +123,7 @@
                         font-weight: 400;
                         font-size: 14px;
                         line-height: 17px;
-                        
+
                         .form-login-group-link {
                             margin-left: 10px;
                             color: #C59A4C;
@@ -133,29 +136,93 @@
         }
     }
 }
-// @media only screen and (min-width: 375px){
 
-// }
-@media only screen and (min-width: 768px){  
+@media only screen and (min-width: 375px) {
+    .login {
+        .login-wrap {
+            .login-wrap-inner {
+                margin-bottom: 109px;
+                padding-left: 40px;
+                padding-top: 36px;
+
+                .login-wrap-inner-back {
+                    .login-wrap-inner-back-link {
+                        .login-wrap-inner-back-icon {}
+                    }
+
+                    .login-wrap-inner-back-text {}
+                }
+            }
+
+            .form-login {
+                width: 454px;
+
+                .form-login-content {
+                    width: 336px;
+
+                    .form-login-content-link {
+                        .form-login-content-logo {
+                            width: 178px;
+                            height: 44px;
+                        }
+                    }
+
+                    .form-login-content-title {
+                        font-size: 32px;
+                        line-height: 38px;
+                    }
+
+                    .form-login-group {
+                        .form-login-group-item {
+                            .form-login-group-lb {}
+
+                            .form-login-group-input {}
+
+                            ::placeholder {}
+                        }
+
+                        .form-login-group-submit {
+                            margin-top: 12px;
+                            margin-bottom: 27px;
+                        }
+
+                        .form-login-group-forgot {
+                            margin-bottom: 82px;
+
+                        }
+
+                        .form-login-group-account {
+
+                            .form-login-group-link {}
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
     .login {
         background-image: url(../img/login.svg);
         padding-top: 42px;
         padding-left: 120px;
-        
+
         .login-wrap {
-            
+
             .login-wrap-inner {
                 margin-bottom: 90px;
-    
+
                 .login-wrap-inner-back {
                     display: flex;
                     align-items: center;
                     color: #ffffff;
-    
+
                     .login-wrap-inner-back-link {
                         margin-right: 20px;
                     }
-    
+
                     .login-wrap-inner-back-text {
                         font-style: normal;
                         font-weight: bold;
@@ -164,7 +231,7 @@
                     }
                 }
             }
-    
+
             .form-login {
                 margin: 0 auto;
                 padding-top: 63px;
@@ -175,14 +242,14 @@
                 display: flex;
                 justify-content: center;
                 text-align: center;
-    
+
                 .form-login-content {
                     width: 386px;
-    
+
                     .form-login-content-link {
                         .form-login-content-logo {}
                     }
-    
+
                     .form-login-content-title {
                         font-family: Lato;
                         font-style: normal;
@@ -193,11 +260,11 @@
                         margin-top: 24px;
                         margin-bottom: 48px;
                     }
-    
+
                     .form-login-group {
                         .form-login-group-item {
                             text-align: left;
-    
+
                             .form-login-group-lb {
                                 color: #426877;
                                 font-style: normal;
@@ -205,7 +272,7 @@
                                 font-size: 16px;
                                 line-height: 19px;
                             }
-    
+
                             .form-login-group-input {
                                 width: 100%;
                                 height: 44px;
@@ -219,13 +286,14 @@
                                 margin-bottom: 22px;
                                 color: #4F4F4F;
                             }
-                            ::placeholder{
+
+                            ::placeholder {
                                 color: #BDBDBD;
-                                font-size: 14px;    
-                                line-height: 140%; 
+                                font-size: 14px;
+                                line-height: 140%;
                             }
                         }
-    
+
                         .form-login-group-submit {
                             width: 100%;
                             height: 46px;
@@ -239,20 +307,20 @@
                             margin-top: 15px;
                             margin-bottom: 24px;
                         }
-    
+
                         .form-login-group-forgot {
                             font-weight: normal;
                             font-size: 16px;
                             line-height: 19px;
                             color: #0D2436;
                             margin-bottom: 84px;
-    
+
                         }
-    
+
                         .form-login-group-account {
                             font-size: 16px;
                             line-height: 19px;
-                            
+
                             .form-login-group-link {
                                 margin-left: 10px;
                                 color: #C59A4C;
@@ -260,10 +328,10 @@
                                 font-weight: 600;
                             }
                         }
-    
+
                     }
                 }
             }
         }
     }
- }
+}
