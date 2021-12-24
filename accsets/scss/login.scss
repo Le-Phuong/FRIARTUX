@@ -1,0 +1,96 @@
+@import "_global";
+
+.login {
+    height: auto;
+    background-color: $color-primary;
+    padding: 45px 120px;
+
+    .login-wrap {
+        .login-wrap-inner-back {
+            margin-bottom: 90px;
+
+            .login-wrap-inner-back-link {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                .login-wrap-inner-back-text {
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%;
+                    margin-left: 15px;
+                    color: $color-white;
+                }
+            }
+
+        }
+
+        .form-login {
+            padding: 60px 60px 45px 60px;
+            box-sizing: border-box;
+            background-color: #ffffff;
+            width: 513px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+
+            .form-login-content {
+                width: 100%;
+
+                .form-login-header {
+                    text-align: center;
+
+                    .form-login-content-link {
+                        .form-login-content-logo {}
+                    }
+
+                    .form-login-content-title {
+                        font-family: Lato-Regular;
+                        font-style: normal;
+                        font-size: 40px;
+                        line-height: 48px;
+                        color: $color-primary;
+                        margin-top: 25px;
+                        margin-bottom: 45px;
+                    }
+                }
+
+
+                .form-login-group {
+
+                    .primary {
+                        width: 100%;
+                    }
+                }
+
+                .form-login-footer {
+                    text-align: center;
+
+                    .form-login-group-forgot {
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #0D2436;
+                        margin-bottom: 84px;
+
+                    }
+
+                    .form-login-group-account {
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin: 0;
+                        .form-login-group-link {
+                            margin-left: 10px;
+                            color: #C59A4C;
+                            font-style: normal;
+                            font-weight: 600;
+                            &::after{
+                                height:0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
