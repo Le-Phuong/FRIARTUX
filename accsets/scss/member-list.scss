@@ -1,7 +1,5 @@
 @import '_global';
-
 .main-member-list {
-
     .member-list-select {
         display: flex;
         justify-content: space-between;
@@ -76,7 +74,7 @@
                 grid-template-rows: 1fr 1fr 1fr;
                 border: 1px solid #F2F2F2;
                 border-radius: 8px;
-                padding: 20px;
+                padding: 12px;
                 box-sizing: border-box;
 
                 .table-content-item-inner-name {
@@ -218,6 +216,25 @@
 
                 .table-item-none {
                     display: none;
+                }
+            }
+        }
+        .table-content-wrapper{
+            display: grid;
+            justify-content:center;
+            .table-content-img{
+                width: 200px;
+                height: 248px;
+            }
+            .table-content-wrapper-inner{
+                .table-content-list{
+                    .table-content-list-item{
+                        .table-content-list-item-img{}
+                        .table-content-list-item-inner{
+                            
+                        }
+
+                    }
                 }
             }
         }

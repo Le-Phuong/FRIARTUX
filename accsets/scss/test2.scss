@@ -1,0 +1,144 @@
+@import '_global';
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .table-content-wrapper {
+        display: grid;
+        justify-content: center;
+        background-color: #F6F7F8;
+        padding: 8px;
+        box-sizing: border-box;
+
+        .table-content-wrapper-img {
+            text-align: center;
+            margin-bottom: 5px;
+
+            .table-content-img {
+                width: 200px;
+                height: 248px;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+            }
+        }
+
+        .table-content-list {
+            display: grid;
+            grid-row-gap: 8px;
+            padding: 0;
+            background-color: $color-white;
+
+            .table-content-list-item {
+                display: grid;
+                grid-template-columns: auto auto 1fr;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+                grid-column-gap: 24px;
+                align-items: center;
+                padding: 5px;
+                box-sizing: border-box;
+
+                .table-content-list-item-img {
+                    .img-clothes {
+                        width: 52px;
+                        height: 52px;
+                    }
+                }
+
+                .table-content-list-item-inner {
+                    .style {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $color-gray;
+                        margin-bottom: 4px;
+                    }
+
+                    .diagram {
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #828282;
+                        margin: 0;
+                    }
+                }
+
+                .table-content-list-item-icon {
+                    text-align: end;
+
+                    .icon-exit {
+                        width: 24px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .list {
+        .table-content-wrapper {
+            grid-template-columns: 2fr 3fr;
+            grid-column-gap: 10px;
+            padding: 16px;
+
+            .table-content-wrapper-img {
+                .table-content-img {
+                    width: 250px;
+                    height: 309px;
+                }
+            }
+
+            .table-content-list {
+                grid-row-gap: 10px;
+                .table-content-list-item {
+                    .table-content-list-item-inner {
+                        display: grid;
+                        grid-row-gap: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .list {
+        .table-content-wrapper {
+            grid-template-columns: 2fr 4fr;
+
+            .table-content-wrapper-img {
+                .table-content-img {
+                    width: 268px;
+                    height: 328px;
+                }
+            }
+
+            .table-content-list {
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px 24px;
+
+                .table-content-list-item {
+                    grid-column-gap: 16px;
+
+                    .table-content-list-item-img {
+                        .img-clothes {
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+
+                    .table-content-list-item-inner {
+                        grid-row-gap: 6px;
+                        .style {
+                            font-size: 16px;
+                            margin:0;
+                        }
+
+                        .diagram {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
