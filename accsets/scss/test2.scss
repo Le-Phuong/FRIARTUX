@@ -33,7 +33,6 @@
                 display: grid;
                 grid-template-columns: auto auto 1fr;
                 box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
-                grid-column-gap: 24px;
                 align-items: center;
                 padding: 5px;
                 box-sizing: border-box;
@@ -46,6 +45,9 @@
                 }
 
                 .table-content-list-item-inner {
+                    margin-right: 30px;
+                    margin-left: 24px;
+
                     .style {
                         font-size: 14px;
                         font-weight: 400;
@@ -77,11 +79,12 @@
 @media only screen and (min-width: 425px) {
     .list {
         .table-content-wrapper {
-            grid-template-columns: 2fr 3fr;
-            grid-column-gap: 10px;
+            grid-template-columns: auto auto;
+            grid-column-gap: 16px;
             padding: 16px;
 
             .table-content-wrapper-img {
+                margin-bottom: 0;
                 .table-content-img {
                     width: 250px;
                     height: 309px;
@@ -90,10 +93,12 @@
 
             .table-content-list {
                 grid-row-gap: 10px;
+
                 .table-content-list-item {
                     .table-content-list-item-inner {
                         display: grid;
                         grid-row-gap: 4px;
+                        margin-right: 75px;
                     }
                 }
             }
@@ -104,12 +109,10 @@
 @media only screen and (min-width: 768px) {
     .list {
         .table-content-wrapper {
-            grid-template-columns: 2fr 4fr;
-
             .table-content-wrapper-img {
                 .table-content-img {
                     width: 268px;
-                    height: 328px;
+                    height: 100%;
                 }
             }
 
@@ -118,8 +121,6 @@
                 grid-gap: 20px 24px;
 
                 .table-content-list-item {
-                    grid-column-gap: 16px;
-
                     .table-content-list-item-img {
                         .img-clothes {
                             width: 60px;
@@ -129,13 +130,14 @@
 
                     .table-content-list-item-inner {
                         grid-row-gap: 6px;
+                        margin-left: 16px;
+
                         .style {
                             font-size: 16px;
-                            margin:0;
+                            margin: 0;
                         }
 
-                        .diagram {
-                        }
+                        .diagram {}
                     }
                 }
             }

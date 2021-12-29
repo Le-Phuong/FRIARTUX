@@ -1,0 +1,22 @@
+.order-type-dropdown{
+    width: 140px;
+    padding: 18px;
+    box-sizing: border-box;
+
+    .order-type-dropdown-item{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        .order-type-dropdown-lb{
+            font-size: 14px;
+            font-weight: 400;
+            color:#828282;
+        }
+        .order-type-dropdown-checkbox{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
