@@ -1,91 +1,105 @@
-@import "_global";
-
+*{margin: 0;}
 .login {
-    height: auto;
-    background-color: $color-primary;
-    padding: 45px 120px;
+    background-color: #ffffff;
+    padding: 16px 16px 105px;
 
-    .login-wrap {
-        .login-wrap-inner-back {
+    .login-wrapper {
+        .login-inner {
             margin-bottom: 90px;
-
-            .login-wrap-inner-back-link {
-                display: flex;
-                align-items: center;
-                text-decoration: none;
-
-                .login-wrap-inner-back-text {
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 140%;
-                    margin-left: 15px;
-                    color: $color-white;
+            .login-inner-optum {
+                .svg-optum {
+                    width: 58px;
+                    height: 58px;
+                    background-color: red;
                 }
             }
 
+            .login-inner-wellmed {
+                .svg-wellmed {
+                    width: 58px;
+                    height: 58px;
+                    background-color: red;
+                }
+            }
         }
 
         .form-login {
-            padding: 60px 60px 45px 60px;
+            padding: 60px 100px 40px;
             box-sizing: border-box;
             background-color: #ffffff;
-            width: 513px;
             display: flex;
             justify-content: center;
-            margin: auto;
+            max-width: 513px;
+            margin: 0 auto;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
 
             .form-login-content {
                 width: 100%;
 
                 .form-login-header {
                     text-align: center;
+                    margin-bottom: 48px;
 
                     .form-login-content-link {
-                        .form-login-content-logo {}
-                    }
-
-                    .form-login-content-title {
-                        font-family: Lato-Regular;
-                        font-style: normal;
-                        font-size: 40px;
-                        line-height: 48px;
-                        color: $color-primary;
-                        margin-top: 25px;
-                        margin-bottom: 45px;
+                        .form-login-content-logo {
+                            width: 58px;
+                            height: 58px;
+                            background-color: red;
+                        }
                     }
                 }
 
 
                 .form-login-group {
-
-                    .primary {
-                        width: 100%;
-                    }
-                }
-
-                .form-login-footer {
-                    text-align: center;
-
-                    .form-login-group-forgot {
-                        font-weight: normal;
-                        font-size: 16px;
-                        line-height: 19px;
-                        color: #0D2436;
-                        margin-bottom: 84px;
-
+                    #df_input_password {
+                        padding-top: 22px;
+                        padding-bottom: 37px;
                     }
 
-                    .form-login-group-account {
-                        font-size: 16px;
-                        line-height: 19px;
-                        margin: 0;
-                        .form-login-group-link {
-                            margin-left: 10px;
-                            color: #C59A4C;
-                            font-style: normal;
-                            font-weight: 600;
-                            &::after{
-                                height:0;
+                    .input-wrapper {
+                        .input-inner {
+                            label {
+                                font-size: 16px;
+                                font-weight: 700;
+                                margin-bottom: 10px;
+                            }
+
+                            input {
+                                height: 44px;
+                                font-size: 16px;
+                                margin: 0;
+                                width: 100%;
+                                border-radius: 5px;
+                                border: 1px solid;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+
+                    .login-footer {
+                        text-align: center;
+
+                        .login-forgot {
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #0D2436;
+                            margin: 0;
+                            padding-top: 24px;
+
+                        }
+
+                        .primary {
+                            width: 30%;
+                            background-color:#EDF5FF;
+                            border:1px solid #CFDFF4;
+                            border-radius:5px;
+                            height: 46px;
+
+                            .button-text {
+                                font-size: 16px;
+
                             }
                         }
                     }
