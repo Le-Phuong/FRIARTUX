@@ -1,0 +1,122 @@
+* {
+    margin: 0
+}
+
+.reports {
+    .reports-header {
+        border-bottom: 1px solid #F1F1F1;
+
+        .reports-header-wrapper {
+            height: 46px;
+            display: flex;
+            justify-content: space-between;
+
+            .reports-header-inner {
+                display: flex;
+
+                .reports-header-link {
+                    margin-right: 40px;
+
+                    .reports-header-logo {
+                        width: 58px;
+                        height: 100%;
+                        background-color: red;
+                    }
+                }
+
+                .reports-header-app {
+                    .reports-optum {
+                        .svg-optum {
+                            width: 58px;
+                            height: 100%;
+                            background-color: red;
+                        }
+
+                        .svg-wellmed {
+                            width: 58px;
+                            height: 100%;
+                            background-color: red;
+                        }
+                    }
+                }
+            }
+
+            .reports-header-btn {
+                background-color: #ffffff;
+                border: 1px solid #F1F1F1;
+                border-bottom: none;
+                border-top: none;
+                margin-right: 40px;
+
+                .reports-header-text {}
+            }
+        }
+    }
+
+    .reports-main {
+        .reports-main-wrapper {
+            .reports-main-inner {
+                display: flex;
+                padding: 30px 20px;
+
+                .reports-main-menu {
+                    width: 250px;
+
+                    .reports-menu-list {
+                        list-style: none;
+                        padding: 0;
+
+                        .reports-menu-item {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .reports-main-content {
+                    .reports-main-title {
+                        margin-bottom: 50px;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    .reports-main-table {
+                        width: 1000px;
+
+                        #table-header {
+                            padding: 20px 30px;
+
+                            #table-header-item {
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .reports-table-list {
+                            list-style: none;
+                            padding: 0;
+                            display: grid;
+                            grid-template-columns: 2fr 3fr 1fr;
+                            border: 1px solid #F1F1F1;
+                            border-bottom: none;
+                            padding: 10px 30px;
+
+                            .reports-table-item {
+                                font-size: 14px;
+                                font-weight: 400;
+
+                                .reports-table-link {
+                                    color: #6E99F9;
+                                }
+                            }
+                        }
+
+                        #table-end {
+                            border-bottom: 1px solid #F1F1F1;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
