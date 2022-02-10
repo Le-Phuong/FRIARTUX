@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.wellmed {
+    .wellmed-header {
+        border-bottom: 2px solid #F1F1F1;
+
+        .wellmed-header-wrapper {
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            .wellmed-header-inner {
+                display: flex;
+
+                .wellmed-header-link {
+                    margin-right: 40px;
+
+                    .wellmed-header-logo {
+                        width: 58px;
+                        height: 100%;
+                        background-color: red;
+                    }
+                }
+
+                .wellmed-header-app {
+                    .wellmed-optum {
+                        .svg-optum {
+                            width: 58px;
+                            height: 100%;
+                            background-color: red;
+                        }
+
+                        .svg-wellmed {
+                            width: 58px;
+                            height: 100%;
+                            background-color: red;
+                        }
+                    }
+                }
+            }
+
+            .wellmed-header-btn {
+                background-color: #ffffff;
+                border: 2px solid #F1F1F1;
+                border-bottom: none;
+                border-top: none;
+                margin-right: 40px;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+
+                .wellmed-header-text {
+                    color: #505050;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .wellmed-main {
+        .wellmed-main-wrapper {
+            .wellmed-main-inner {
+                display: flex;
+                padding: 15px 30px;
+
+                .wellmed-main-menu {
+                    width: 250px;
+
+                    .wellmed-menu-list {
+                        list-style: none;
+                        padding: 0;
+                        cursor: pointer;
+
+                        .wellmed-menu-item {
+                            font-size: 14px;
+                            font-weight: 500;
+                            padding: 15px;
+                            color: #505050;
+                            font-family: "Ubuntu", sans-serif;
+                        }
+                    }
+                }
+
+                .providers {
+                    max-width: 1000px;
+
+                    .providers-header {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 60px;
+                        margin-top: 15px;
+
+                        .providers-title {
+                            font-size: 30px;
+                            font-weight: 700;
+                            font-family: "Ubuntu", sans-serif;
+                            color: #505050;
+                        }
+
+                        .providers-btn {
+                            font-weight: 400;
+                            border-radius: 4px;
+                            height: 38px;
+                            background-color: #EDF5FF;
+                            border: 1px solid #B7D6FC;
+                            padding: 8px 20px;
+                            line-height: 1em;
+                            font-size: 0.8em;
+                            color: #505050;
+                        }
+                    }
+
+                    .providers-wrapper {
+                        background-color: #F7F7F7;
+                        border: 1px solid #E9E9E9;
+                        border-radius: 4px;
+
+                        .providers-inner {
+                            display: grid;
+                            gap: 20px 30px;
+                            grid-template-columns: repeat(30, 1fr);
+                            padding: 30px;
+
+                            .providers-item {
+                                .input-all {
+                                    width: 100%;
+                                    height: 38px;
+                                    border-radius: 4px;
+                                    border: 1px solid #ccc;
+                                    box-sizing: border-box;
+                                    margin-top: 5px;
+                                }
+
+                                label {
+                                    font-size: 14px;
+                                    line-height: 1.42857143;
+                                    color: #505050;
+                                    font-weight: 700;
+                                }
+                            }
+
+                            .first-name {
+                                grid-column: 1/11;
+                            }
+
+                            .last-name {
+                                grid-column: 11/21;
+                            }
+
+                            .specialty {
+                                grid-column: 21/31;
+                            }
+
+                            .city {
+                                grid-column: 1/13;
+                            }
+
+                            .county {
+                                grid-column: 13/25;
+                            }
+
+                            .patient-panel {
+                                grid-column: 25/31;
+                            }
+
+                            .status {
+                                grid-column: 1/9;
+                            }
+
+                            .affiliation {
+                                grid-column: 9/18;
+                            }
+
+                            .zip {
+                                grid-column: 18/23;
+                            }
+
+                            .languages {
+                                grid-column: 23/31;
+                            }
+
+                            .location-name {
+                                grid-column: 1/13;
+                            }
+
+                            .providers-btn {
+                                grid-column: 22/31;
+                                display: flex;
+                                align-items: end;
+                                justify-content: space-between;
+                                gap: 20px;
+
+                                button {
+                                    font-size: 0.8em;
+                                    color: #505050;
+                                    font-weight: 400;
+                                    background-color: #EDF5FF;
+                                    border: 1px solid #B7D6FC;
+                                    height: 38px;
+                                    border-radius: 4px;
+                                    box-sizing: border-box;
+                                }
+
+                                .filter-btn {
+                                    width: 45%;
+                                }
+
+                                .start-btn {
+                                    width: 55%;
+                                }
+
+                            }
+                        }
+                    }
+
+                    .reults {
+                        .reults-header {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 20px;
+                            margin-top: 85px;
+
+                            .reults-title {
+                                font-size: 30px;
+                                font-weight: 700;
+                                font-family: "Ubuntu", sans-serif;
+                                color: #505050;
+                            }
+
+                            .reults-btn {
+                                font-weight: 400;
+                                border-radius: 4px;
+                                height: 38px;
+                                background-color: #EDF5FF;
+                                border: 1px solid #B7D6FC;
+                                padding: 8px 20px;
+                                line-height: 1em;
+                                font-size: 0.8em;
+                                color: #505050;
+                            }
+                        }
+
+                        .reults-table {
+                            border: 2px solid #F1F1F1;
+                            border-bottom: none;
+                            border-radius: 4px;
+
+                            .reults-list {
+                                display: grid;
+                                grid-template-columns: repeat(8, 1fr);
+                                grid-column-gap: 20px;
+                                list-style: none;
+                                padding: 0;
+                                border-bottom: 2px solid #F1F1F1;
+                                padding: 10px 30px;
+                                .item-header{
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    margin-left: 20px;
+                                    color: #505050;
+                                    display:flex;
+                                    align-items:center;
+                                    .item-header-icon{
+                                        margin-left: 10px;
+                                        width: 12px;
+                                        height: 12px;
+                                    }
+                                }
+
+                                .reults-item {
+                                    margin-left: 20px;
+                                    width: 100%;
+                                    white-space: pre-wrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    -webkit-line-clamp: 1;
+                                    -webkit-box-orient: vertical;
+                                    display: -webkit-box;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #505050;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

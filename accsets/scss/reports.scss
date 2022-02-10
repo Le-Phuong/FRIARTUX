@@ -1,31 +1,32 @@
 * {
-    margin: 0
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.reports {
-    .reports-header {
-        border-bottom: 1px solid #F1F1F1;
+.wellmed {
+    .wellmed-header {
+        border-bottom: 2px solid #F1F1F1;
 
-        .reports-header-wrapper {
-            height: 46px;
+        .wellmed-header-wrapper {
+            height: 60px;
             display: flex;
             justify-content: space-between;
 
-            .reports-header-inner {
+            .wellmed-header-inner {
                 display: flex;
 
-                .reports-header-link {
+                .wellmed-header-link {
                     margin-right: 40px;
 
-                    .reports-header-logo {
+                    .wellmed-header-logo {
                         width: 58px;
                         height: 100%;
                         background-color: red;
                     }
                 }
 
-                .reports-header-app {
-                    .reports-optum {
+                .wellmed-header-app {
+                    .wellmed-optum {
                         .svg-optum {
                             width: 58px;
                             height: 100%;
@@ -41,53 +42,71 @@
                 }
             }
 
-            .reports-header-btn {
+            .wellmed-header-btn {
                 background-color: #ffffff;
-                border: 1px solid #F1F1F1;
+                border: 2px solid #F1F1F1;
                 border-bottom: none;
                 border-top: none;
                 margin-right: 40px;
+                padding: 20px;
+                display: flex;
+                align-items: center;
 
-                .reports-header-text {}
+                .wellmed-header-text {
+                    color: #505050;
+                    font-size: 14px;
+                }
             }
         }
     }
 
-    .reports-main {
-        .reports-main-wrapper {
-            .reports-main-inner {
+    .wellmed-main {
+        .wellmed-main-wrapper {
+            .wellmed-main-inner {
                 display: flex;
-                padding: 30px 20px;
+                padding: 15px 30px;
 
-                .reports-main-menu {
+                .wellmed-main-menu {
                     width: 250px;
 
-                    .reports-menu-list {
+                    .wellmed-menu-list {
                         list-style: none;
                         padding: 0;
+                        cursor: pointer;
 
-                        .reports-menu-item {
-                            margin-bottom: 20px;
+                        .wellmed-menu-item {
+                            font-size: 14px;
+                            font-weight: 500;
+                            padding: 15px;
+                            color: #505050;
+                            font-family: "Ubuntu", sans-serif;
                         }
                     }
                 }
 
-                .reports-main-content {
-                    .reports-main-title {
-                        margin-bottom: 50px;
-                        font-size: 24px;
+                .reports-content {
+                    .reports-title {
+                        margin-bottom: 60px;
+                        font-size: 30px;
                         font-weight: 700;
+                        font-family: "Ubuntu", sans-serif;
+                        color:#505050;
+                        margin-top: 15px;
                     }
 
-                    .reports-main-table {
+                    .reports-table {
                         width: 1000px;
+                        border: 2px solid #F1F1F1;
+                        border-radius: 4px;
 
                         #table-header {
                             padding: 20px 30px;
 
                             #table-header-item {
-                                font-size: 16px;
+                                font-size: 14px;
                                 font-weight: 700;
+                                color:#505050;
+                                font-family: "Ubuntu", sans-serif;
                             }
                         }
 
@@ -96,23 +115,22 @@
                             padding: 0;
                             display: grid;
                             grid-template-columns: 2fr 3fr 1fr;
-                            border: 1px solid #F1F1F1;
-                            border-bottom: none;
+                            border-bottom: 2px solid #F1F1F1;
                             padding: 10px 30px;
-
                             .reports-table-item {
                                 font-size: 14px;
                                 font-weight: 400;
+                                color:#505050;
 
                                 .reports-table-link {
-                                    color: #6E99F9;
+                                    color: #2867F7;
                                 }
                             }
                         }
 
                         #table-end {
-                            border-bottom: 1px solid #F1F1F1;
                             height: 20px;
+                            border-bottom: none;
                         }
                     }
                 }
